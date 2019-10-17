@@ -39,33 +39,6 @@ public class Home extends JFrame {
 
 	private JPanel contentPane;
 
-	/**
-	 * Launch the application.
-	 */
-	/*
-	public ArrayList<Movie> movieList(){
-		
-		ArrayList<Movie> moviesList = new ArrayList<>();
-		try {
-			conn=DriverManager.getConnection(  
-					"jdbc:oracle:thin:@localhost:1521:xe","SYSTEM","cns96");
-			
-			String query1="SELECT * FROM MOVIES";
-			Statement st = conn.createStatement();
-			ResultSet rs = st.executeQuery(query1);
-			Movie movie;
-			
-			while(rs.next()){
-				movie = new Movie(rs.getInt(arg0));
-			}
-			
-		}catch (SQLException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-	}
-	*/
-	
 	Connection conn = null;
 	Statement stmt = null;
 	ResultSet rs = null;

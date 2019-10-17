@@ -1,5 +1,7 @@
 package deneme;
 
+/*This is an example class to try database connection*/
+
 import java.sql.*;  
 class ConnectionDB{  
 	public static void main(String args[]){  
